@@ -1,0 +1,47 @@
+.pic{
+    position: relative;
+}
+
+.pic > img{
+    position: relative;
+    min-width: 35vw;
+    max-width: 45vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.odin_pic img{
+    display: inline;
+    height: 135px;
+    width: 150px;
+}
+
+.odin_pic p{
+    color: #fff;
+    font-size: 100px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin-left: 50px;
+
+}
+
+.odin_pic{
+    margin: 0%;
+    padding: 5px;
+    position: absolute;
+    display: flex;
+    background-color: black;
+    opacity: 0.1;
+    height: 150px;
+    top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic_credit{
+    position: absolute;
+    display: block;
+    bottom: 10%;
+    color: #fff;
+    margin-left: 5em;
+    bottom: 2%;
+}
