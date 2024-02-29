@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+/*leftside*/
+body > div{
+    display: flex;
+}
+.pic img{
+    position: relative;
+    width: 40vw;
+    height: 100vh;
+}
+
+.odin_pic > img{
+width:100px;
+height: 120px;
+}
+
+
+.odin_pic {
+    justify-content: center;
+    align-items: center;
+    top: 5vh;
+    height: 12vh;
+    min-width: 40vw;
+    position: absolute;
+    display: flex;
+    gap: 1em;
+    font-size: 73px;
+    color: white;
+    background:linear-gradient(90deg,blue,purple) ;
+    opacity: 0.2;
+}
+
+
+
+
+.pic_credit {
+    bottom: 2vh;
+    text-align: center;
+    position: absolute;
+    color: aliceblue;
+
+    min-width: 40vw;
+}
+
+
+
+/*Right side*/
+.right{
+ position: absolute;
+ display: flex;
+ flex-direction: column;
+    width: 60vw;
+    height: 100vh;
+    top: -2.5px;
+    left: 40vw;
+}
+
+.formInfo, .form, .accBtn{
+    position: relative;
+    min-height: 33.33vh;
+    max-width: 60vw;
+    background-color: #F0F0F0;
+}
+
+.formInfo p{
+    justify-content: space-between;
+    align-self: center;
+    justify-self: center;
+    display: flex;
+    color: black;
+    font-size:3.5vh;
+    flex-wrap: nowrap;
+}
+
+.form {
+    max-height: 33.33%;
+    align-items: start;
+    background-color:white;
+}
+
+.form > label,input{
+    align-self: start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.form p{
+    text-align: start;
+    margin: 0px;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.accBtn{
+align-items: center;
+}
+
+
+.accBtn > button{
+    padding: 5px;
+    background-color: green;
+    border-radius: 5px;
+}

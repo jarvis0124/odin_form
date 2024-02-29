@@ -8,42 +8,53 @@
 
 </head>
 <body>
-    <div class="pic">
-        <img src="jessie-mccall-8OYOxeshmfs-unsplash.jpg" alt="Green forest">
-        <div class="odin_pic">
-            <img src="/odin-lined.png" alt="Odin">
-            <p>Odin</p>
+    <div class="left">
+        <div class="pic">
+            <img src="./images/jessie-mccall-8OYOxeshmfs-unsplash.jpg" alt="Green forest"> 
+            <div class="odin_pic">
+                <img src="./images/odin-lined.png" alt="Odin">
+                <p>Odin</p>
+            </div>
+            <div class="pic_credit">
+                <p> Photo by <a href="https://unsplash.com/@littlegreeneyes?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jessie McCall</a> on
+                    <a href="https://unsplash.com/photos/green-grass-field-with-fog-8OYOxeshmfs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+            </div>   
         </div>
-          <p class="pic_credit"> Photo by <a href="https://unsplash.com/@littlegreeneyes?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jessie McCall</a> on
-            <a href="https://unsplash.com/photos/green-grass-field-with-fog-8OYOxeshmfs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
     </div>
+
+        
+<div class="right">
     <div class="formInfo">
         <p>
-            This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up now to get started <br>You know you want to.
+            This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.Sign up now to get started You know you want to.
         </p>
     </div>
-    <div class="form_container">
+    <div class="form">
+        
         <form action="" method="post">
                 <legend>
+                    <p>Let's do this!</p>
                     <label for="first_name">First Name</label>
-                    <input type="text" id="first_name" name="first_name">
+                    <input type="text" id="first_name" name="first_name" required>
                     <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name" name="last_name">
+                    <input type="text" id="last_name" name="last_name" required><br>
                     <label for="email">Email</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" required>
                     <label for="phone">Contact Number</label>
-                    <input type="number" min="10" max="10" id="phone" name="Phone">
+                    <input type="text" minlength="10" maxlength="10" id="phone" name="Phone" required><br>
                     <label for="user_password">Password</label>
-                    <input type="password" id="user_password">
+                    <input type="password" id="user_password" required>
                     <label for="confirmPass">Confirm Password</label>
-                    <input type="password" id="confirmPass">
-                    <div id="accBtn">
-                        <button type="submit">Create Account</button>
-                        <p>Already have an Acc? <button>Login</button></p>
-                    </div>
-                    
+                    <input type="password" id="confirmPass" required> 
                 </legend>
         </form>
     </div>
+    <div class="accBtn">
+        <button type="submit">Create Account</button>
+        <p>Already have an Acc? <button>Login</button></p>
+    </div>
+
+</div>
+
 </body>
 </html>
