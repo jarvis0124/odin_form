@@ -1,12 +1,11 @@
 body {
     margin: 0;
     padding: 0%;
+    position: relative;
 }
 
 /*leftside*/
-body > div{
-    display: flex;
-}
+
 .pic img{
     position: relative;
     width: 40vw;
@@ -50,13 +49,13 @@ height: 120px;
 
 /*Right side*/
 .right{
- position: absolute;
- display: flex;
- flex-direction: column;
+     position: absolute;
+    display: flex;
+    flex-direction: column;
     width: 60vw;
     height: 100vh;
-    top: -2.5px;
     left: 40vw;
+    top:0px;
 }
 
 .formInfo, .form, .accBtn{
@@ -77,15 +76,23 @@ height: 120px;
 }
 
 .form {
+    margin-top: 3vh;
+    align-items: center;
+    justify-content: center;
     max-height: 33.33%;
-    align-items: start;
     background-color:white;
 }
 
-.form > label,input{
-    align-self: start;
-    display: flex;
-    flex-wrap: wrap;
+.form div{
+    align-self: center;
+    align-items: center;
+    display: inline-block;
+    margin-top: 2vh;
+    padding: 5px;
+}
+
+.form  label{
+    margin: auto 1vw auto 1vw;
 }
 
 
