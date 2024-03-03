@@ -104,6 +104,9 @@ height: 120px;
 .form  label{
     margin: auto 1vw auto 1vw;
 }
+.form input{
+border-radius: 5px;
+}
 
 .form span{
     display: inline;
@@ -119,6 +122,13 @@ height: 120px;
     padding: 5px;
 }
 
+form input:invalid{
+border-color:rgb(156, 25, 25);
+}
+
+form input:valid{
+    border-color: rgb(67, 67, 218);
+}
 .accBtn *{
 margin: 20px 50px;
 }
